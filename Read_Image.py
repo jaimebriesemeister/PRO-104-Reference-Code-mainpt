@@ -4,7 +4,7 @@ import cv2
 img = cv2.imread("butterfly.jpg")
 
 # Exiba a imagem colorida
-cv2.imshow("Imagem de Exibição",img)
+cv2.imshow("Imagem de Exibicao",img)
 
 # Converta a imagem colorida para escala de cinza
 gray_img = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
